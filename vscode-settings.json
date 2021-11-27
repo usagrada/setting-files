@@ -1,0 +1,327 @@
+{
+  "editor.tokenColorCustomizations": {
+    "[GitHub Dark Default]": {
+      "textMateRules": [
+        // for react value in jsx code
+        {
+          "scope": [
+            "punctuation.section.embedded"
+          ],
+          "settings": {
+            "foreground": "#DB7F8E"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.brackets.curly"
+          ],
+          "settings": {
+            "foreground": "#DB7F8E"
+          }
+        },
+        {
+          "scope": [
+            "meta.function.definition"
+          ],
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        },
+      ]
+    }
+  },
+  "highlight-matching-tag.enabled": true,
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[latex]": {
+    // スニペット補完中にも補完を使えるようにする
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // インデント幅を2にする
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "[tex]": {
+    // スニペット補完中にも補完を使えるようにする
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // インデント幅を2にする
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "/opt/homebrew/include/**"
+  ],
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.largeFileOptimizations": false,
+  "editor.lineNumbers": "on",
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "files.associations": {
+    "*.json": "json",
+    "*.mdx": "markdown",
+    "*.tsx": "typescriptreact"
+  },
+  "git.ignoredRepositories": [
+    "node_modules",
+    "dist",
+    ".nuxt",
+    ".next"
+  ],
+  "git.ignoreLegacyWarning": true,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7YmFzaWM7ZXI7bW9ja3Vwczt3ZWJpY29uc1wiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiNEQ0RDREXCJdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6MTE2OSxcImhlaWdodFwiOjgyN30sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  // ---------- LaTeX Workshop ----------
+  // 使用パッケージのコマンドや環境の補完を有効にする
+  "latex-workshop.intellisense.package.enabled": true,
+  // 生成ファイルを削除するときに対象とするファイル
+  // デフォルト値に "*.synctex.gz" を追加
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.xdv",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.nav",
+    "*.dvi",
+    "*.synctex.gz"
+  ],
+  "latex-workshop.latex.magic.args": [
+    "-synctex=1",
+    "-file-line-error",
+    "-silent",
+    "--output-directory=%OUTDIR%",
+    "%DOC%"
+  ],
+  // 生成ファイルを "out" ディレクトリに吐き出す
+  "latex-workshop.latex.outDir": "out",
+  // ビルドのレシピ
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "XeLaTeX",
+      "tools": [
+        // "xetex"
+        "tectonic"
+      ]
+    },
+    {
+      "name": "pLaTeX",
+      "tools": [
+        "platex"
+      ]
+    },
+    {
+      "name": "pdfLaTeX",
+      "tools": [
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "LuaLaTeX",
+      "tools": [
+        "luatex"
+      ]
+    }
+  ],
+  // ビルドのレシピに使われるパーツ
+  "latex-workshop.latex.tools": [
+    {
+      "name": "platex",
+      "command": "latexmk",
+      "args": [
+        "-silent",
+        "-synctex=1",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "latexmk",
+      "args": [
+        "-pdflatex",
+        "-silent",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "luatex",
+      "command": "latexmk",
+      "args": [
+        "-lualatex",
+        "-synctex=1",
+        "-file-line-error",
+        "-silent",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "xetex",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-file-line-error",
+        "-silent",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "tectonic",
+      "command": "tectonic",
+      "args": [
+        "%DOC%.tex",
+        "-o=%OUTDIR%"
+      ]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdownlint.config": {
+    "MD010": false,
+    // インラインHTMLの制限を解除
+    "MD033": false
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.analysis.extraPaths": [
+    "${env:HOME}/.anyenv/envs/pyenv/versions/*/lib/*/site-packages/",
+    "${workspaceFolder}/venv/lib/python*/site-packages/",
+    "${workspace}/venv/lib/python*/site-packages/"
+  ],
+  "python.defaultInterpreterPath": "~/.anyenv/envs/pyenv/shims/python",
+  "python.terminal.activateEnvironment": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|%|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))[!:?]?\\s*($TAGS)",
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "after": [
+        "<Esc>"
+      ],
+      "before": [
+        "ctrl+j"
+      ]
+    }
+  ],
+  //  折り返し時に表示行単位での移動できるようにする
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "after": [
+        "g",
+        "k"
+      ],
+      "before": [
+        "k"
+      ]
+    },
+    {
+      "after": [
+        "g",
+        "j"
+      ],
+      "before": [
+        "j"
+      ]
+    },
+    {
+      "after": [
+        "g",
+        "k"
+      ],
+      "before": [
+        "<Up>"
+      ]
+    },
+    {
+      "after": [
+        "g",
+        "j"
+      ],
+      "before": [
+        "<Down>"
+      ]
+    }
+  ],
+  "vim.useSystemClipboard": true,
+  "vim.whichwrap": "h,l,b,s,<,>,[,]",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "emmet.triggerExpansionOnTab": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "tabnine.experimentalAutoImports": true,
+  "emmet.includeLanguages": {
+    "rust": "html"
+  },
+  "editor.fontFamily": "'SauceCodePro Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+}

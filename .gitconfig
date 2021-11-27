@@ -1,0 +1,20 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
+[pull]
+	ff = only
+	rebase = false
+
+[init]
+	defaultBranch = main
+
+# https://qiita.com/shuntarou/items/96419dd05800f675a21b
+# when using SwiftPackageManager Comment out, next line.
+[includeIf "gitdir:~/workspace/university/lab/"]
+ path = ~/.gitconfig.lab
+
+[core]
+	excludesfile = ~/.gitignore_global
